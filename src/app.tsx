@@ -1,17 +1,17 @@
-import { component$, useSignal } from '@builder.io/qwik'
+import { useState } from 'react'
 import './app.css'
 
-export const App = component$(() => {
-  const showContent = useSignal(false)
+export default function App() {
+  const [showContent, setShowContent] = useState(false)
 
   return (
-    <main class="hero-main">
+    <main className="hero-main">
       <h1 
-        class="greeting"
-        onClick$={() => showContent.value = !showContent.value}
+        className="greeting"
+        onClick={() => setShowContent(!showContent)}
       >
         こんにちわ
       </h1>
     </main>
   )
-})
+}
