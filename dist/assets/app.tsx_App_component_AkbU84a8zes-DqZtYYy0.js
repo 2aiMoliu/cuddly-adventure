@@ -1,0 +1,1 @@
+import{t as e}from"./preload-helper-B5On3WKS.js";import{i as t,n,r}from"./core.min-DhE7cgsj.js";var i=()=>n(`main`,null,{class:`hero-main`},n(`h1`,null,{class:`greeting`,onClick$:t(()=>e(()=>import(`./app.tsx_App_component_main_h1_onClick_067QXGUfWxA-BMEcF_42.js`),[]),`s_067QXGUfWxA`,[r(!1)])},`こんにちわ`,3,null),3,`4e_0`);export{i as s_AkbU84a8zes};

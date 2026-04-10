@@ -1,0 +1,1 @@
+import{t as e}from"./preload-helper-B5On3WKS.js";import{a as t,i as n,o as r,t as i}from"./core.min-DhE7cgsj.js";var a=t(n(()=>e(()=>import(`./app.tsx_App_component_AkbU84a8zes-DqZtYYy0.js`),[]),`s_AkbU84a8zes`));r(document.getElementById(`app`),i(a,null,3,`Rj_0`));
