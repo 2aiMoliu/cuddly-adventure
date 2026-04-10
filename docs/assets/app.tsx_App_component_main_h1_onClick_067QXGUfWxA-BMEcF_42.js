@@ -1,1 +1,0 @@
-import{s as e}from"./core.min-DhE7cgsj.js";var t=()=>{let[t]=e();return t.value=!t.value};export{t as s_067QXGUfWxA};
