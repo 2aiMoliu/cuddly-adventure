@@ -14,7 +14,7 @@ export default function App() {
         こんにちわ
       </h1>
       <img 
-        src={`https://goqr.me/api/qrcode/?size=120x120&data=${encodeURIComponent(pageUrl)}`}
+        src={`https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(pageUrl)}&size=120x120`}
         alt="QR Code"
         className="qr-code"
       />
