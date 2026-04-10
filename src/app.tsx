@@ -1,6 +1,5 @@
 import { component$, useSignal } from '@builder.io/qwik'
 
-import qwikLogo from './assets/qwik.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './app.css'
@@ -13,7 +12,7 @@ export const App = component$(() => {
       <section id="center">
         <div class="hero">
           <img src={heroImg} class="base" width="170" height="179" alt="Profile" />
-          <img src={qwikLogo} class="framework" alt="Qwik logo" />
+          <img src={viteLogo} class="framework" alt="Vite logo" />
           <img src={viteLogo} class="vite" alt="Vite logo" />
         </div>
         <div>
@@ -43,7 +42,7 @@ export const App = component$(() => {
             </li>
             <li>
               <span class="stat">
-                <img class="button-icon" src={qwikLogo} alt="" />
+                <img class="button-icon" src={viteLogo} alt="" />
                 Open Source
               </span>
             </li>
@@ -78,6 +77,12 @@ export const App = component$(() => {
                   <use href="/icons.svg#email-icon"></use>
                 </svg>
                 Email
+              </a>
+            </li>
+            <li>
+              <a href="https://2aiMoliu.github.io/cuddly-adventure/" target="_blank">
+                <img class="button-icon" src="https://api.qrserver.in/v1/create-qr-code/?size=100x100&data=https://2aiMoliu.github.io/cuddly-adventure/" alt="QR Code" />
+                QR Code
               </a>
             </li>
           </ul>
