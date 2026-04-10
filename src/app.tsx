@@ -3,6 +3,7 @@ import './app.css'
 
 export default function App() {
   const [showContent, setShowContent] = useState(false)
+  const pageUrl = 'https://2aiMoliu.github.io/cuddly-adventure/'
 
   return (
     <main className="hero-main">
@@ -12,6 +13,11 @@ export default function App() {
       >
         こんにちわ
       </h1>
+      <img 
+        src={`https://api.qrserver.in/v1/create-qr-code/?size=120x120&data=${encodeURIComponent(pageUrl)}`}
+        alt="QR Code"
+        className="qr-code"
+      />
     </main>
   )
 }
